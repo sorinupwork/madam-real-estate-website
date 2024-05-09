@@ -1,0 +1,15 @@
+{
+  "name": "madam-estate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev-server": "cd api && nodemon index.js",
+    "dev-client": " cd client && npm run dev",
+    "start": "cd api && node index.js",
+    "build": "cd api && npm install && cd ../client && npm install && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
